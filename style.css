@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background: #CCCCFF;
+}
+canvas {
+  display: block;
+}
+
+#loveQuestion {
+  position: absolute;
+  left: 220px;
+  top: 230px;
+  font-size: 80px;
+}
+
+input {
+  width: 200px;
+  font-size: 30px;
+  border: none;
+  color: rgba(92, 88, 88, 0.671);
+  padding: 16px 32px;
+  text-align: center;
+}
+
+#btnYes {
+  position: absolute;
+  left: 480px;
+  top: 450px;
+  background-color: #FFB90F;
+  cursor: pointer;
+}
+
+#btnNo {
+  position: absolute;
+  left: 860px;
+  top: 450px;
+  background-color: #FF3333;
+  transition: 0.3s;
+}
